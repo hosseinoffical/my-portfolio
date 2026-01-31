@@ -1,0 +1,86 @@
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* ---------Shared stles----- */
+*{
+    margin: 0;
+}
+ .dark-2{
+    color: #474747;
+ }
+ .btn-primary{
+    background-color: #FD6E0A;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffff;
+    border-radius: 5px;
+    border: none;
+    padding: 14px 28px;
+    cursor: pointer;
+ }
+ /* ---------Start Header section ----------*/
+ .header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+   
+ }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 41px 150px;
+}
+.nav-title{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 49px;
+}
+nav .title-col{
+    color: red;
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 41px;
+}
+/*---- About section start---- */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 0px 160px;
+}
+.banner .banner-content{
+    max-width: 468px;
+}
+.banner-content .banner-greetings{
+    font-size: 36px;
+    font-weight:600;
+    margin-bottom: 10px;
+}
+.banner-content .banner-title{
+    font-size: 68px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.banner-content .banner-description{
+    font-size: 14px;
+    font-weight: normal;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.banner-img{
+    width: 584px;
+}

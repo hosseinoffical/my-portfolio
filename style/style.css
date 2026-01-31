@@ -12,6 +12,9 @@
  .dark-2{
     color: #474747;
  }
+ .bg-secondery{
+    background-color: #FFF8F3;
+ }
  .btn-primary{
     background-color: #FD6E0A;
     font-size: 18px;
@@ -83,4 +86,112 @@ nav ul li a{
 }
 .banner-img{
     width: 584px;
+}
+/*------- About section start------- */
+main{
+    max-width: 912px;
+    margin: 0 auto;
+}
+.about{
+    padding: 130px 110px;
+    text-align: center;
+    margin: 80px 0;
+}
+.section-title, .section-description{
+    text-align: center;
+}
+.about-items{
+    display: flex;
+   justify-content: space-around;
+    /* gap: 20px; */
+}
+.about .section-title{
+    color: #181818;
+    font-size: 30px;
+    font-weight: bold;
+}
+.about .section-description{
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+.about-items{
+
+}
+.item-title{
+    color: #757575;
+    font-size: 14px;
+    font-weight: normal;
+}
+.item-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: bolder;
+}
+/*------- Skill section start------------- */
+.skill-items{
+    margin: 80px 0;
+}
+.skill-items .section-title{
+    color: #181818;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.skill-items .section-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 80px;
+}
+
+.skill-title{
+    color: #181818;
+    font-size: 18px;
+    font-weight: bold;
+}
+.skill-description{
+    color: #757575;
+    font-size: 15px;
+    font-weight: normal;
+}
+.skill-content{
+    display: flex;
+    gap: 25px;
+}
+.skill-content .skill-items{
+    box-shadow: 5px 5px 5px #e4e4e4;
+    border-radius: 5px;
+    padding: 25px;
+}
+/*------ Resume section start------------  */
+.resume > .section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.resume-cotainer{
+    display: flex;
+    gap: 24px;
+    margin-top: 80px;
+}
+.experience-titile{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.experience-subtitle{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.experience-description{
+    color: #757575;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.text-centre{
+    text-align: center;
+    margin: 30px 0;
 }

@@ -130,6 +130,15 @@ main{
     font-weight: bolder;
 }
 /*------- Skill section start------------- */
+.skill-content{
+    display: flex;
+    gap: 25px;
+}
+.skill-content .skill-items{
+    box-shadow: 5px 5px 5px #e4e4e4;
+    border-radius: 5px;
+    padding: 25px;
+}
 .skill-items{
     margin: 80px 0;
 }
@@ -155,15 +164,6 @@ main{
     color: #757575;
     font-size: 15px;
     font-weight: normal;
-}
-.skill-content{
-    display: flex;
-    gap: 25px;
-}
-.skill-content .skill-items{
-    box-shadow: 5px 5px 5px #e4e4e4;
-    border-radius: 5px;
-    padding: 25px;
 }
 /*------ Resume section start------------  */
 .resume > .section-title{
@@ -223,4 +223,39 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 #text{
     height: 120px;
     padding: 10px 30px;
+}
+.hide{
+    display: none;
+}
+
+/*-------- For Small Device Media-----------  */
+@media screen and (max-width: 576px) {
+    nav ul li{
+        padding: 15px 0;
+    }
+    .banner{
+        margin: 0;
+    }
+    .banner-img {
+        width: 100%;
+    }
+    .skill-content, .about-items, .banner, nav, ul{
+        flex-direction: column;
+    }
+    .resume-cotainer{
+        flex-direction: column;
+        text-align: center;
+        padding: 0 10px;
+    }
+    footer, .about{
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+    .footer-column {
+    width: 100%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea {
+    width: calc(100% - 40px );
+}
 }
